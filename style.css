@@ -3,7 +3,7 @@
     padding 0;
 }
 
-html {
+html{
     box-sizing: border-box;
     height: 100vw;
   }
@@ -12,7 +12,70 @@ html {
   }
 
 
-  body {
+body{
       height: 100%;
-      background-color: black;
+      font-size: 35px;
   }
+
+
+.header {
+  text-align: center;
+  margin: 30px 0px 30px 0px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.btn-paper{
+  background-image:  url('./images/paper.svg');
+  min-width: 200px;
+  height: 200px;
+  }
+
+.btn-rock{
+  background-image:  url('./images/rock.svg');
+  min-width: 200px;
+  height: 200px;
+  }
+
+.play-again:hover {
+  background-color: greenyellow;
+}
+.btn-scissors{
+  background-image:  url('./images/scissors.svg');
+  min-width: 200px;
+  height: 200px;
+}
+
+.display-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+  margin-bottom: 30px;
+}
+
+.declare_winner {
+  margin-top: 30px;
+}
+
+.play-again {
+  border: none;
+  background-color: inherit;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
